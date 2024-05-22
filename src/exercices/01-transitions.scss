@@ -1,0 +1,32 @@
+.button {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 15px 30px;
+  background: #1d3557;
+  color: #f1faee;
+  font-size: 24px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.star {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 48px;
+  cursor: pointer;
+}
+
+.article {
+  padding: 30px;
+  background: #a8dadc;
+  border-radius: 5px;
+  color: #54819e;
+  text-align: center;
+  transition: color 0.5s;
+}
+
+.article-title {
+  margin-bottom: 12px;
+  font-size: 24px;
+  transition: transform 0.5s;
+}
