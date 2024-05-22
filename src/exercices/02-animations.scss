@@ -7,6 +7,7 @@
     border-radius: 5px;
     color: #003566;
     box-shadow: 0px 0px 4px 0px rgba(#003566, 0.25);
+    animation: infinite linear 2s cta-anime;
   }
 
   .loader {
@@ -18,5 +19,24 @@
     background: #ffbe0b;
     border-radius: 50px;
     color: #fff;
+    animation: infinite linear 10s loading-anime;
+  }
+}
+
+@keyframes loading-anime {
+  0% {
+    background: #ffbe0b;
+  }
+  33% {
+    background: #ff006e;
+  }
+  66% {
+    background: #8338ec;
+  }
+}
+
+@keyframes cta-anime {
+  50% {
+    box-shadow: 0px 0px 4px 6px rgba(0, 53, 102, 0.25);
   }
 }
